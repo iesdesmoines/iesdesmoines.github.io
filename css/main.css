@@ -42,6 +42,10 @@ body {
   box-shadow: -1px 10px 26px -1px rgba(0,0,0,0.2);
 }
 
+#contact-card-image {
+  min-height: 250px;
+}
+
 .contact-card {
   margin: 20px;
 }
