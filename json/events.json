@@ -1,9 +1,16 @@
 [
     {
-        "date": "2016-12-22 17:30:00",
-        "description": "There is an upcoming board meeting on the 22nd. Details for the upcoming year will be discussed.",
-        "title": "Board Meeting",
-        "type": "test",
+        "date": "2017-04-12 17:30:00",
+        "title": "Speaker",
+        "description": "",
+        "type": "Event",
+        "url": ""
+    },
+    {
+        "date": "2017-08-30 17:30:00",
+        "title": "Third Annual Golf Outing",
+        "description": "",
+        "type": "Event",
         "url": ""
     }
 ]
