@@ -82,6 +82,30 @@ li.active > a {
   left: 0;
 }
 
+.sponsor-button {
+  float: right;
+}
+
+.membership-text {
+  padding-left: 10px;
+  color: #FF8200;
+}
+
+.events-header {
+  color: black;
+
+}
+
+.events-text {
+  color:#FF8200;
+}
+
+.header {
+  font-size: 2em;
+  color: #FF8200;
+
+}
+
 .Event small {
   display: none;
 }
