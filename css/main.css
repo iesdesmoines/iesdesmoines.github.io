@@ -86,6 +86,16 @@ li.active > a {
   float: right;
 }
 
+.btn-warning {
+  color: #fff;
+  background-color: #FF8200 !important;
+  border-color: #EEA236;
+}
+
+.btn-warning:hover {
+  background-color: #CA6803 !important;
+}
+
 .membership-text {
   padding-left: 10px;
   color: #FF8200;
