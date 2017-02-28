@@ -1,11 +1,9 @@
 # Site settings
-title: Taylor Hobbs
-email: hobbstay@gmail.com
-description: "Chronicling my journey in software and web development."
+title: IES Des Moines
+email: ''
+description: "The Central of Iowa IES section's vision is to build upon a century of outstanding excellence to create a premier lighting community that's dedicated to promoting the art and science of lighting to its members, allied profession organizations and to the public. We continually strive to uphold these efforts through educational programs, presentations, and social networking events."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: taylorkjh
-github_username:  TayHobbs
 highlighter: rouge
 
 # Build settings
