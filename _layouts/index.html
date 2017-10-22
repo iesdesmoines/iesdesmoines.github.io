@@ -6,34 +6,45 @@
   <body>
 
 
-    <div class="page-content">
-      <div class="container">
-        {% include header.html %}
-        <div class="homepage-image">
-          <img id="homepage-image" src="{{site.baseurl}}/images/des-moines-night.jpg" width="80%" alt="Downtown Des Moines">
+  <div class="page-content">
+    <div class="container">
+      {% include header.html %}
+      <div class="homepage-image">
+        <img id="homepage-image" src="{{site.baseurl}}/images/des-moines-night.jpg" width="80%" alt="Downtown Des Moines">
+      </div>
+      <div class="row">
+        <div id="welcome" class="col-lg-9">
+          <h4 class="header">Welcome to Central Iowa IES</h4>
+          <p>The Illuminating Engineering Society of North America (IES) is the recognized technical authority on illumination. The IES serves as a forum for the exchange of information and ideas as well as a vehicle for professional development and recognition. Through technical committees, research, investigations, and discussions, guidance is provided to the lighting professionals through consensus-based lighting recommendations. Its members work with lighting in a variety of capacities - lighting designers, architects, interior designers, government & utility personnel, engineers, contractors, manufacturers, distributors, researchers and educators - throughout the world. Together they share a common interest in lighting and a common desire to promote the use of the most innovating lighting technologies with a focus on judicious use of energy in all lighting applications.</p>
+          <p>The Central Iowa IES section's vision is to build upon a century of outstanding excellence to create a premier lighting community that's dedicated to promoting the art and science of lighting to its members, allied profession organizations and to the public. We continually strive to uphold these efforts through educational programs, presentations, and social networking events.</p>
         </div>
-        <div class="row">
-          <div id="welcome" class="col-lg-9">
-            <h4 class="header">Welcome to Central Iowa IES</h4>
-            <p>The Illuminating Engineering Society of North America (IES) is the recognized technical authority on illumination. The IES serves as a forum for the exchange of information and ideas as well as a vehicle for professional development and recognition. Through technical committees, research, investigations, and discussions, guidance is provided to the lighting professionals through consensus-based lighting recommendations. Its members work with lighting in a variety of capacities - lighting designers, architects, interior designers, government & utility personnel, engineers, contractors, manufacturers, distributors, researchers and educators - throughout the world. Together they share a common interest in lighting and a common desire to promote the use of the most innovating lighting technologies with a focus on judicious use of energy in all lighting applications.</p>
-            <p>The Central Iowa IES section's vision is to build upon a century of outstanding excellence to create a premier lighting community that's dedicated to promoting the art and science of lighting to its members, allied profession organizations and to the public. We continually strive to uphold these efforts through educational programs, presentations, and social networking events.</p>
-          </div>
-          <div id="homepage-announcements" class="col-lg-3">
-            <h4>Upcoming Events</h4>
-            <h4><a href="{{ site.baseurl }}/events">Light and Color with LEDs</a></h4>
-            <p>October 11th</p>
-            <h4><a href="{{ site.baseurl }}/events">Central Iowa IES Fall Social</a></h4>
-            <p>November 2017</p>
-            <h4><a href="{{ site.baseurl }}/events">Central Iowa IES 1st Annual Product Showcase</a></h4>
-            <p>February 22nd</p>
-            <h4><a href="{{ site.baseurl }}/events">What is Bright</a></h4>
-            <p>March 2018</p>
-            <h4><a href="{{ site.baseurl }}/events">Central Iowa IES 4th Annual Golf Outing</a></h4>
-            <p>August 30th</p>
-          </div>
+        <div id="homepage-announcements" class="col-lg-3">
+          <h4>Upcoming Events</h4>
+          <h4><a href="{{ site.baseurl }}/events">Central Iowa IES Fall Social</a></h4>
+          <p>November 2017</p>
+          <h4><a href="{{ site.baseurl }}/events">Central Iowa IES 1st Annual Product Showcase</a></h4>
+          <p>February 22nd</p>
+          <h4><a href="{{ site.baseurl }}/events">What is Bright</a></h4>
+          <p>March 2018</p>
+          <h4><a href="{{ site.baseurl }}/events">Central Iowa IES 4th Annual Golf Outing</a></h4>
+          <p>August 30th</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="header">Platinum Sponsors</h2>
+          <a href="http://www.ksalighting.com/" target="_blank">
+            <img src="{{ site.baseurl}}/images/KSALightingControls-CondensedLogo.png" width="50%" alt="KSA Lighting & Controls Logo">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a href="http://lsiowa.com/" target="_blank">
+            <img id="lighting-solutions" src="{{ site.baseurl}}/images/LightSolutions_logo.jpg" width="80%" alt="Light Solutions Iowa Logo">
+          </a>
         </div>
       </div>
     </div>
+  </div>
 
     {% include footer.html %}
     <script src="{{ site.baseurl }}/css/jquery-2.1.1.min.js"></script>
