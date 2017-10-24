@@ -122,6 +122,12 @@ li.active > a {
 
 #lighting-solutions {
   padding-top: 9em;
+  text-align: right;
+}
+
+#musco-color {
+  margin-top: 60px;
+  text-align: center;
 }
 
 .Event small {
