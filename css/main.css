@@ -53,7 +53,7 @@ body {
   min-height: 250px;
 }
 
-.image-width {
+.image-width, .image-width-events {
   width: 80%;
 }
 
@@ -145,6 +145,10 @@ li.active > a {
 }
 
 @media screen and (max-width: 1200px) {
+  .image-width-events {
+    width: 20%;
+  }
+
   .image-width {
     width: 50%;
   }
