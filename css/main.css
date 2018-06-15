@@ -144,6 +144,18 @@ li.active > a {
   width: 45%;
 }
 
+.image-width-smaller {
+  width: 32%;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
 @media screen and (max-width: 1200px) {
   .image-width-events {
     width: 20%;
@@ -161,8 +173,21 @@ li.active > a {
     width: 20%;
   }
 
+  .image-width-smaller {
+    width: 10%;
+  }
+
   .image-width-smallish {
     width: 20%;
+  }
+
+
+  .center {
+    text-align: left;
+  }
+
+  .right {
+    text-align: left;
   }
 
 }
